@@ -1,10 +1,3 @@
-from flask import Flask, render_template, request, redirect, url_for, session
-
-import requests, json, os
-import ibm_db
-import re
-
-import cv2
 
 app = Flask(__name__)
 
